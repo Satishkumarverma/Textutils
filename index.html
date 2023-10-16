@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textutils</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Textutils</h1>
+        <textarea id="box" aria-label="Search"></textarea><br>
+        <button onclick="upperCase()">Convert to Uppercase</button>
+        <button onclick="lowerCase()">Convert to Lowercase</button>
+        <button onclick="clearText()">Clear Text</button>
+        <button onclick="copyText()">Copy Text</button>
+        <button onclick="removeSpace()">Remove Extra Spaces</button>
+        <div class="sub_container">
+            <h2>Your text summary</h2>
+            <p><span id="word">0</span> words & <span id="char">0</span> characters</p>
+            <p></p>
+            <h2>Preview</h2>
+            <p id="preview">Write something in text box to preview here...</p>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
